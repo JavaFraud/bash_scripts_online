@@ -1,0 +1,4 @@
+ping -c 2 riotgames.com | grep octets de | cut -d = -f 3
+date +"%H:%M:%S"
+date +"%d:%m:%Y"
+printf "Name:\t%s\nID:\t%04d%s\n" "John" "35"
